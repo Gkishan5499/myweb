@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			background: purple;
+		}
+		form{
+			width: 50%;
+			height: 500px;
+			margin: 50px 0px 0px 440px;
+			border: 1px solid black;
+			background: lightgreen;
+		}
+		.box{
+			margin: 50px 0px 0px 100px;
+			font-size: 20px;
+		}
+		input[type="text1"],[type="age"] ,select{
+			width: 250px;
+			height: 30px;
+			margin-left: 100px;
+		}select{
+			width: 250px;
+			height: 30px;
+			margin-left: 33px;
+		}
+		input[type="text"]{
+			width: 250px;
+			height: 30px;
+			margin-left: 13px;
+		}
+		textarea{
+			width: 250px;
+			height: 40px;
+			margin-left:78px;
+		}
+         
+         input[type="radio"]{
+
+         	margin-left: 68px;
+
+
+		}
+		input[type="submit"]{
+			width: 60px;
+			height: 34px;
+			margin: 50px 0px 0px  200px;
+			background: orange;
+			color: white;
+		}
+		h1{
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body><h1> Sign up to Selling.</h1>
+	<form action="postname.php" method="post">
+
+	<div class="box">Enter your name: 
+	<input type="text" name="fname">
+	<br>
+	<br>
+     Address:
+     <textarea name="addr"></textarea>
+     <br>
+     <br>
+     Qulicafication:<select name="quli">
+     <option></option>
+     <option>12th</option>
+     <option>graduation</option>
+     <option>Post graduation</option>
+ </select>
+     <br>
+     <br>Gender:
+     <input type="radio" name="gender">Male <input type="radio" name="gender">Female<br><br>
+	AGE:
+	<input type="age" name="age">
+	<br><br>
+	Email:<input type="text1" name="email"><br><br>
+	<input type="submit" name="btn" value="SAVE"></div>
+
+</form>
+</body>
+</html>
